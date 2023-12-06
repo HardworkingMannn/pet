@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: Shared
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml

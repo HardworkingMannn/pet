@@ -1,0 +1,10 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: Pet
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
